@@ -1,0 +1,27 @@
+# Rust
+/target/
+**/*.rs.bk
+# Cargo.lock はアプリケーションなので追跡する（ライブラリではないため）
+
+# Trunk
+/dist/
+.trunk/
+
+# Tailwind CLI の出力（入力は style/input.css、出力はビルド成果物なので追跡しない）
+/style/output.css
+/tailwindcss
+/tailwindcss.exe
+
+# Node（Tailwind CLI を npx 経由で使う場合のみ発生）
+node_modules/
+package-lock.json
+
+# エディタ・OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ログ・一時ファイル
+*.log
+.tmp/
