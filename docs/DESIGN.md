@@ -1,4 +1,4 @@
-# DESIGN — kaleido.chat 設計図
+# DESIGN — Hexy.chat 設計図
 
 この文書が最上位の設計文書です。決定はすべてここに集約し、詳細は各専門文書へ委ねます。
 
@@ -98,7 +98,7 @@ Matrix の既存ユーザーを奪うのではなく、Discord に慣れた人�
 | CSS | Tailwind CSS | Trunk の `[[hooks]]` で Tailwind CLI を build 段階に噛ませる |
 | Matrix SDK | matrix-rust-sdk（`wasm32-unknown-unknown`） | |
 | ストレージ | **IndexedDB のみ** | `matrix-sdk-indexeddb`。SQLite・OSキーチェーンは対象外 |
-| ホスティング | 静的ホスティング | 将来 `kaleido.chat` ドメインでの配信を想定 |
+| ホスティング | 静的ホスティング | 将来 `hexy.chat` ドメインでの配信を想定 |
 
 ### Tauri を使わない理由
 
@@ -186,7 +186,7 @@ Matrix ではルームの暗号化は**一度ONにするとOFFに戻せません
 - **構造**（4ペイン、情報密度、ホバー挙動、語彙）→ Discord
 - **質感**（クリーンで簡素、ツールらしい佇まい）→ Commet
 
-Commet は Discord風UIを持つ Matrix クライアントで、「機能は豊富だがインターフェースは簡素」を掲げています。kaleido.chat が目指す方向と一致します。
+Commet は Discord風UIを持つ Matrix クライアントで、「機能は豊富だがインターフェースは簡素」を掲げています。Hexy.chat が目指す方向と一致します。
 
 具体的にはダークオンリー、独自の `midnight` パレット、スクエア基調の角丸、等幅フォント。詳細と全トークンは [DESIGN_LANGUAGE](DESIGN_LANGUAGE.md)。
 
@@ -320,7 +320,7 @@ src/
 | [Sable](https://github.com/SableClient/Sable) / [Cinny](https://github.com/cinnyapp/cinny) | **機能一覧**（[FEATURE_REFERENCE](FEATURE_REFERENCE.md)） | AGPL-3.0。**コードは一切流用しない** |
 | [Element Call](https://github.com/element-hq/element-call) | VC の連携先 | v0.2 |
 
-> **AGPL汚染の回避について。** Commet・Sable・Cinny はいずれも AGPL-3.0 です。kaleido.chat は MIT で公開するため、**これらのコードをコピーすることはできません**。
+> **AGPL汚染の回避について。** Commet・Sable・Cinny はいずれも AGPL-3.0 です。Hexy.chat は MIT で公開するため、**これらのコードをコピーすることはできません**。
 > 参照するのは「どう見えるか」「どういう機能があるか」という事実のみで、実装はすべて独自に行います。
 
 **役割分担を一行でまとめると**：構造は Discord、見た目は Commet、機能は Sable、実装は独自。

@@ -1,4 +1,6 @@
-# kaleido.chat
+# Hexy.chat
+
+![Hexy.chat logo](assets/logo.png)
 
 **Discord風の見た目でMatrixを使う、動作が軽いクライアント。**
 
@@ -64,7 +66,7 @@ Discord から Matrix へ移行したい人が、**操作を覚え直さずに�
 
 ## セキュリティについて正直に書いておくこと
 
-kaleido.chat は Web アプリなので、セッションと暗号鍵は **IndexedDB** に保存されます。
+Hexy.chat は Web アプリなので、セッションと暗号鍵は **IndexedDB** に保存されます。
 
 **IndexedDB は OS のキーチェーン相当の保護を提供しません。** 同じオリジンで動く他のスクリプトや、端末を物理的に触れる第三者に対して、ネイティブアプリほど強くありません。
 
@@ -141,4 +143,4 @@ trunk serve
 
 ## ホスティング
 
-将来的に `kaleido.chat` ドメインでの配信を想定しています（未取得）。
+将来的に `hexy.chat` ドメインでの配信を想定しています（未取得）。

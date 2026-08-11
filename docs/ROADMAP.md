@@ -111,7 +111,7 @@ Spike 0 合格後に着手します。実装順序は [CORE_SPEC](CORE_SPEC.md) 
 - 接続先ホームサーバーを matrix.org 固定のまま続けるか
 - LiveKit の自前運用の要否
 - デスクトップ版（Tauri）を将来出すか。出す場合、core層の境界がそのまま使えるか
-- `kaleido.chat` ドメインの取得とホスティング先
+- `hexy.chat` ドメインの取得とホスティング先
 
 ---
 

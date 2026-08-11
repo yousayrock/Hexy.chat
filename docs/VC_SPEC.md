@@ -2,7 +2,7 @@
 
 ## 方針
 
-kaleido.chat のターゲットは Discord からの移行組であり、**ボイスチャットは最終的に必須**です。
+Hexy.chat のターゲットは Discord からの移行組であり、**ボイスチャットは最終的に必須**です。
 しかし v0.1 では実装しません。差別化として掲げた「バグが無い」を守るためです。
 
 WebRTC と SFU の接続まわりは、Matrix クライアント実装のなかで最もバグが出やすい領域です。
@@ -49,7 +49,7 @@ https://call.element.io/room/#/<room_id>
 
 `target="_blank"` かつ `rel="noopener noreferrer"` で開きます。
 
-**この設計の意図**：WebRTC / SFU の接続バグをすべて公式側に背負わせ、kaleido.chat 自身の「バグが無い」という信頼性を守ります。
+**この設計の意図**：WebRTC / SFU の接続バグをすべて公式側に背負わせ、Hexy.chat 自身の「バグが無い」という信頼性を守ります。
 
 ### UIに出すもの・出さないもの
 
